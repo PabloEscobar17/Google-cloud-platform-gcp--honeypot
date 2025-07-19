@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(120deg, #f2f6fc 0%, #e3e9f7 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  color: #222;
+  margin: 0;
+}
+
+.form-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 20px rgba(35,70,140,0.10);
+  padding: 38px 32px 28px 32px;
+  max-width: 350px;
+  width: 100%;
+  margin: 32px auto;
+}
+
+.form-card h2 {
+  text-align: center;
+  margin-bottom: 22px;
+  color: #2563eb;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.form-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-card input[type="text"],
+.form-card input[type="password"] {
+  padding: 12px 14px;
+  border: 1.5px solid #e3e9f7;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  transition: border-color 0.2s;
+  outline: none;
+  background: #f8fafc;
+}
+
+.form-card input[type="text"]:focus,
+.form-card input[type="password"]:focus {
+  border-color: #2563eb;
+  background: #f2f6fc;
+}
+
+.form-card input[type="submit"] {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 13px 0;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: background 0.18s;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.07);
+}
+
+.form-card input[type="submit"]:hover {
+  background: #184caa;
+}
+
+.form-card a.form-link {
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+  color: #2563eb;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color 0.18s;
+}
+
+.form-card a.form-link:hover {
+  color: #184caa;
+}
